@@ -1,4 +1,4 @@
-import groq
+import os
 from groq import Groq
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
